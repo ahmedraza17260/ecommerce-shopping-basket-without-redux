@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+
+:root {
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #f7f7f7; */
+    /* background-image: linear-gradient(45deg, #22c1c3, #fdbb2d); */
+    /* background: rgb(63,94,251); */
+    /* background: radial-gradient(circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%); */
+
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%) !important;
+
+
+    /* background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 21%,
+    rgba(252, 70, 107, 1) 100%
+  ); */
+    /* background-color: linear-gradient((#22c1c3, #fdbb2d)) !important; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* min-height: 100vh; */
+    /* margin: 0; */
+    color: black !important;
+    font-family: 'cursive' !important;
+    /* font-family: 'BioRhyme', cursive, serif !important; */
+    /* text-align: center; */
+    /* font-family: "Lato", "sans-serif"; */
+}
+
+.h1 {
+    /* background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%) !important; */
+    font-family: 'BioRhyme', 'Fascinate', cursive, Inline;
+    background: -webkit-linear-gradient(120deg, #74ebd5, #9face6);
+    /* background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    /* background-image: linear-gradient(180deg, #fff, #87f1ff); */
+    font-weight: bolder !important;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    /* filter: drop-shadow(2px 2px #0085a3); */
+    /* filter: drop-shadow(3px 3px black); */
+    text-shadow: 1px 1px 2px #74ebd5, 0 0 1em blue, 0 0 0.2em blue;
+    /* text-shadow: 1px 1px 2px #74ebd5, 0 0 1em pink, 0 0 0.2em pink; */
+    color: black;
+    /* font-size: 70px; */
+    text-align: center;
+}
+
+.copyRight {
+    text-align: center;
+    /* padding-bottom: 6px !important; */
+    color: black !important;
+    /* opacity: ; */
+    font-weight: bolder;
+    font-family: 'BioRhyme', cursive, serif !important;
+    /* font-family: 'Mali', cursive !important; */
+    /* font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; */
+    padding: 16px !important;
+    font-size: x-large !important;
+    box-shadow: black 5px 5px 5px 5px !important;
+    /* background: radial-gradient(circle,
+      rgba(238, 174, 202, 1) 17%,
+      rgba(148, 187, 233, 1) 100%); */
+    background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%) !important;
+    margin-top: 30px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+
+}
+
+.btn {
+    cursor: pointer;
+    /* background-color: #9c88ff; */
+    /* background: radial-gradient(circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%); */
+
+    /* background-color: #3f5efb; */
+    /* background-color: aquamarine; */
+    background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%) !important;
+    box-shadow: var(--box-shadow);
+    color: #000000;
+    border: 0;
+    display: block;
+    font-size: medium;
+    font-weight: bolder !important;
+    margin: 10px 0 30px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    font-weight: bolder !important;
+}
+
+.btn1 {
+  cursor: pointer;
+  /* background-color: #9c88ff; */
+  /* background: radial-gradient(circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%); */
+
+  /* background-color: #3f5efb; */
+  /* background-color: aquamarine; */
+  /* background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%) !important; */
+  background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%) !important;
+  box-shadow: var(--box-shadow);
+  color: #000000;
+  border: 0;
+  display: block;
+  font-size: medium;
+  font-weight: bolder !important;
+  margin: 10px 0 30px;
+  /* margin-top: 30px; */
+  padding: 10px;
+  width: 100%;
+  font-weight: bolder !important;
+}
+
+
+.h4 {
+  /* background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%) !important; */
+  font-family: 'BioRhyme', 'Fascinate', cursive, Inline;
+  /* background: -webkit-linear-gradient(120deg, #74ebd5, #9face6); */
+  /* background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+  /* background-image: linear-gradient(180deg, #fff, #87f1ff); */
+  font-weight: bolder !important;
+  background-size: 100%;
+  /* background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent; */
+  /* filter: drop-shadow(2px 2px #0085a3); */
+  /* filter: drop-shadow(3px 3px black); */
+  /* text-shadow: 1px 1px 2px #74ebd5, 0 0 1em blue, 0 0 0.2em blue; */
+  /* text-shadow: 1px 1px 2px #74ebd5, 0 0 1em pink, 0 0 0.2em pink; */
+  color: black;
+  /* font-size: 70px; */
+  text-align: center;
+}
+.li{
+  /* background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%) !important; */
+  background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%) !important;
+  color: black;
+  font-family: 'BioRhyme', 'Fascinate', cursive, Inline;
+  font-weight: bold !important; 
+}
+
+.bg{
+  background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%) !important;
+  color: black !important;
+  /* font-family: 'BioRhyme', 'Fascinate', cursive, Inline; */
+  font-weight: bold !important; 
+}
