@@ -11,11 +11,11 @@ export default class Basket extends Component {
                     <div>
                         <ul>
                             {cartItems.map(item =>
-                                <li>
+                                <li key={item.id} >
                                     <b>{item.title} <br /> Price: {item.price} </b>  <br />
                                     Quantity: {item.count} <br /> Item Price: {item.price * item.count}
                                     <button className="btn-danger btn1"
-                                        onClick={(e) => this.props.handleRemoveFromCart(e, item)}>X</button>
+                                        onClick={(e) => this.props.handleRemoveFromCart(e, item)}> Remove </button>
                                 </li>
                             )}
                         </ul>

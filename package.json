@@ -1,6 +1,5 @@
 {
   "name": "ecommerce-shopping-basket-without-redux",
-  "homepage": "https://ahmedraza17260.github.io/shopping-cart-without-redux/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,12 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "json-server public/db.json --port 8000",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -13,15 +13,33 @@ class App extends Component {
     this.handleAddToCart = this.handleAddToCart.bind(this)
     this.handleRemoveFromCart = this.handleRemoveFromCart.bind(this)
   }
-  componentWillMount() {
-    fetch("http://localhost:8000/products/").then(res => res.json()).then(data => this.setState({
+
+  componentDidMount() {
+    fetch("/api/products").then(res => res.json()).then(data => this.setState({
       products: data,
       filteredProducts: data
+      // item: console.log(data)
     }))
     if (localStorage.getItem('cartItems')) {
       this.setState({ cartItems: JSON.parse(localStorage.getItem('cartItems')) })
     }
-  }
+  };
+
+
+  //"homepage": "https://ahmedraza17260.github.io/shopping-cart-without-redux/",
+  //"predeploy": "npm run build",
+  //"deploy": "gh-pages -d build"
+  //"server": "json-server public/db.json --port 8000",
+
+  //// componentWillMount() {
+  ////   fetch("http://localhost:8000/products/").then(res => res.json()).then(data => this.setState({
+  ////     products: data,
+  ////     filteredProducts: data
+  ////   }))
+  ////   if (localStorage.getItem('cartItems')) {
+  ////     this.setState({ cartItems: JSON.parse(localStorage.getItem('cartItems')) })
+  ////   }
+  //// };
 
   handleChangeSort(e) {
     this.setState({ sort: e.target.value });
@@ -80,6 +98,7 @@ class App extends Component {
       return { cartItems }
     })
   }
+
   render() {
     return (
       <>

@@ -8,12 +8,13 @@ export default class Product extends Component {
                 <div className="bg text-center ">
                     <a href={`#${product.id}`} onClick={(e) => this.props.handleAddToCart(e, product)}>
                         <img src={`products/${product.sku}_2.jpg`} alt={product.title}></img>
+                        {/* <img src={`${product.sku}_2.jpg`} alt={product.title}></img> */}
                         <p style={{ color: "black" }}>
                             {product.title}
                         </p>
                     </a>
                     <div>
-                        <b>Price: {util.formatCurrency(product.price)}</b>
+                        <b style={{ fontWeight: "bolder" }}>Price: {util.formatCurrency(product.price)}</b>
                         <button className="btn1 btn-default"
                             onClick={(e) => this.props.handleAddToCart(e, product)}>Add To Cart</button>
                     </div>
