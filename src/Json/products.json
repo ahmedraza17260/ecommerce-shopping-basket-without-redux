@@ -7,7 +7,9 @@
     "availableSizes": ["X", "L", "XL", "XXL"],
     "price": 10,
     "isFreeShipping": true,
-    "image": "img1_1"
+    "image": "/img1_1.jpg",
+    "imageUrl": "../Json/products/img1_1.jpg",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningalliance.edu.pk%2Funiform%2Fproduct%2Fmustard-polo-shirt-full-sleeve%2F&psig=AOvVaw0C-HZAt5IW1V9Lf2hok3IN&ust=1599321153114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPibrPTwz-sCFQAAAAAdAAAAABAD"
   },
 
   {
@@ -18,7 +20,9 @@
     "availableSizes": ["X", "M", "L"],
     "price": 14.9,
     "isFreeShipping": true,
-    "image": "img2_1"
+    "image": "/img2_1.jpg",
+    "imageUrl": "../Json/products/img2_1.jpg",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shopbrumano.com%2Fproduct%2Froyal-blue-casual-check-shirt%2F&psig=AOvVaw0C-HZAt5IW1V9Lf2hok3IN&ust=1599321153114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPibrPTwz-sCFQAAAAAdAAAAABAJ"
   },
 
   {
@@ -29,7 +33,9 @@
     "availableSizes": ["X", "M", "L"],
     "price": 14.9,
     "isFreeShipping": true,
-    "image": "img3_1"
+    "image": "/img3_1.jpg",
+    "imageUrl": "../Json/products/img3_1.jpg",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningalliance.edu.pk%2Funiform%2Fproduct%2Fmustard-polo-shirt-full-sleeve%2F&psig=AOvVaw0C-HZAt5IW1V9Lf2hok3IN&ust=1599321153114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPibrPTwz-sCFQAAAAAdAAAAABAD"
   },
 
   {
@@ -40,7 +46,9 @@
     "availableSizes": ["XL"],
     "price": 25.9,
     "isFreeShipping": false,
-    "image": "img4_1"
+    "image": "/img4_1.jpg",
+    "imageUrl": "../Json/products/img1_4.jpg",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningalliance.edu.pk%2Funiform%2Fproduct%2Fmustard-polo-shirt-full-sleeve%2F&psig=AOvVaw0C-HZAt5IW1V9Lf2hok3IN&ust=1599321153114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPibrPTwz-sCFQAAAAAdAAAAABAD"
   },
 
   {
@@ -51,7 +59,9 @@
     "availableSizes": ["X", "L", "XL"],
     "price": 10.9,
     "isFreeShipping": false,
-    "image": "img5_1"
+    "image": "/img5_1.jpg",
+    "imageUrl": "../Json/products/img1_5.jpg",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningalliance.edu.pk%2Funiform%2Fproduct%2Fmustard-polo-shirt-full-sleeve%2F&psig=AOvVaw0C-HZAt5IW1V9Lf2hok3IN&ust=1599321153114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPibrPTwz-sCFQAAAAAdAAAAABAD"
   },
 
   {
@@ -62,7 +72,9 @@
     "availableSizes": ["XL", "XXL"],
     "price": 49.9,
     "isFreeShipping": false,
-    "image": "img6_1"
+    "image": "/img6_1.jpg",
+    "imageUrl": "../Json/products/img1_6.jpg",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningalliance.edu.pk%2Funiform%2Fproduct%2Fmustard-polo-shirt-full-sleeve%2F&psig=AOvVaw0C-HZAt5IW1V9Lf2hok3IN&ust=1599321153114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPibrPTwz-sCFQAAAAAdAAAAABAD"
   },
 
   {
@@ -74,7 +86,9 @@
     "style": "Preto com listras brancas",
     "price": 22.5,
     "isFreeShipping": true,
-    "image": "img7_1"
+    "image": "/img7_1.jpg",
+    "imageUrl": "../Json/products/img1_7.jpg",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningalliance.edu.pk%2Funiform%2Fproduct%2Fmustard-polo-shirt-full-sleeve%2F&psig=AOvVaw0C-HZAt5IW1V9Lf2hok3IN&ust=1599321153114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPibrPTwz-sCFQAAAAAdAAAAABAD"
   },
 
   {
@@ -86,7 +100,9 @@
     "style": "Azul escuro",
     "price": 18.7,
     "isFreeShipping": false,
-    "image": "img8_1"
+    "image": "/img8_1.jpg",
+    "imageUrl": "../Json/products/img1_8.jpg",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningalliance.edu.pk%2Funiform%2Fproduct%2Fmustard-polo-shirt-full-sleeve%2F&psig=AOvVaw0C-HZAt5IW1V9Lf2hok3IN&ust=1599321153114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPibrPTwz-sCFQAAAAAdAAAAABAD"
   },
   {
     "id": 9,
@@ -96,6 +112,8 @@
     "availableSizes": ["L", "XL"],
     "price": 134.9,
     "isFreeShipping": true,
-    "image": "img9_1"
+    "image": "/img9_1.jpg",
+    "imageUrl": "../Json/products/img1_9.jpg",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningalliance.edu.pk%2Funiform%2Fproduct%2Fmustard-polo-shirt-full-sleeve%2F&psig=AOvVaw0C-HZAt5IW1V9Lf2hok3IN&ust=1599321153114000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPibrPTwz-sCFQAAAAAdAAAAABAD"
   }
 ]
